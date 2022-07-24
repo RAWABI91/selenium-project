@@ -15,6 +15,7 @@ phases:
   build:
     on-failure: ABORT
     commands:
+    - mvn test
     - echo Build start on 'date'
     - mvn test
     - echo Build ends on 'date'
